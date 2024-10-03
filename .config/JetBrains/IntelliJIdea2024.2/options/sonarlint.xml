@@ -1,0 +1,2002 @@
+<application>
+  <component name="SonarLintGlobalSettings">
+    <option name="rulesByKey">
+      <map>
+        <entry key="Web:AvoidHtmlCommentCheck">
+          <value>
+            <Rule key="Web:AvoidHtmlCommentCheck" />
+          </value>
+        </entry>
+        <entry key="Web:BoldAndItalicTagsCheck">
+          <value>
+            <Rule key="Web:BoldAndItalicTagsCheck" />
+          </value>
+        </entry>
+        <entry key="Web:ComplexityCheck">
+          <value>
+            <Rule key="Web:ComplexityCheck" />
+          </value>
+        </entry>
+        <entry key="Web:DoubleQuotesCheck">
+          <value>
+            <Rule key="Web:DoubleQuotesCheck" />
+          </value>
+        </entry>
+        <entry key="Web:DynamicJspIncludeCheck">
+          <value>
+            <Rule key="Web:DynamicJspIncludeCheck" />
+          </value>
+        </entry>
+        <entry key="Web:FieldsetWithoutLegendCheck">
+          <value>
+            <Rule key="Web:FieldsetWithoutLegendCheck" />
+          </value>
+        </entry>
+        <entry key="Web:FileLengthCheck">
+          <value>
+            <Rule key="Web:FileLengthCheck" />
+          </value>
+        </entry>
+        <entry key="Web:HeaderCheck">
+          <value>
+            <Rule key="Web:HeaderCheck" />
+          </value>
+        </entry>
+        <entry key="Web:IllegalElementCheck">
+          <value>
+            <Rule key="Web:IllegalElementCheck" />
+          </value>
+        </entry>
+        <entry key="Web:IllegalNamespaceCheck">
+          <value>
+            <Rule key="Web:IllegalNamespaceCheck" />
+          </value>
+        </entry>
+        <entry key="Web:IllegalTabCheck">
+          <value>
+            <Rule key="Web:IllegalTabCheck" />
+          </value>
+        </entry>
+        <entry key="Web:IllegalTagLibsCheck">
+          <value>
+            <Rule key="Web:IllegalTagLibsCheck" />
+          </value>
+        </entry>
+        <entry key="Web:ImgWithoutWidthOrHeightCheck">
+          <value>
+            <Rule key="Web:ImgWithoutWidthOrHeightCheck" />
+          </value>
+        </entry>
+        <entry key="Web:InlineStyleCheck">
+          <value>
+            <Rule key="Web:InlineStyleCheck" />
+          </value>
+        </entry>
+        <entry key="Web:InputWithoutLabelCheck">
+          <value>
+            <Rule key="Web:InputWithoutLabelCheck" />
+          </value>
+        </entry>
+        <entry key="Web:InternationalizationCheck">
+          <value>
+            <Rule key="Web:InternationalizationCheck" />
+          </value>
+        </entry>
+        <entry key="Web:JspScriptletCheck">
+          <value>
+            <Rule key="Web:JspScriptletCheck" />
+          </value>
+        </entry>
+        <entry key="Web:LinkToImageCheck">
+          <value>
+            <Rule key="Web:LinkToImageCheck" />
+          </value>
+        </entry>
+        <entry key="Web:LinkToNothingCheck">
+          <value>
+            <Rule key="Web:LinkToNothingCheck" />
+          </value>
+        </entry>
+        <entry key="Web:LinksIdenticalTextsDifferentTargetsCheck">
+          <value>
+            <Rule key="Web:LinksIdenticalTextsDifferentTargetsCheck" />
+          </value>
+        </entry>
+        <entry key="Web:LongJavaScriptCheck">
+          <value>
+            <Rule key="Web:LongJavaScriptCheck" />
+          </value>
+        </entry>
+        <entry key="Web:MaxLineLengthCheck">
+          <value>
+            <Rule key="Web:MaxLineLengthCheck" />
+          </value>
+        </entry>
+        <entry key="Web:MultiplePageDirectivesCheck">
+          <value>
+            <Rule key="Web:MultiplePageDirectivesCheck" />
+          </value>
+        </entry>
+        <entry key="Web:NonConsecutiveHeadingCheck">
+          <value>
+            <Rule key="Web:NonConsecutiveHeadingCheck" />
+          </value>
+        </entry>
+        <entry key="Web:PageWithoutFaviconCheck">
+          <value>
+            <Rule key="Web:PageWithoutFaviconCheck" />
+          </value>
+        </entry>
+        <entry key="Web:RequiredAttributeCheck">
+          <value>
+            <Rule key="Web:RequiredAttributeCheck" />
+          </value>
+        </entry>
+        <entry key="Web:S1436">
+          <value>
+            <Rule key="Web:S1436" />
+          </value>
+        </entry>
+        <entry key="Web:S1829">
+          <value>
+            <Rule key="Web:S1829" />
+          </value>
+        </entry>
+        <entry key="Web:ServerSideImageMapsCheck">
+          <value>
+            <Rule key="Web:ServerSideImageMapsCheck" />
+          </value>
+        </entry>
+        <entry key="Web:TableWithoutCaptionCheck">
+          <value>
+            <Rule key="Web:TableWithoutCaptionCheck" />
+          </value>
+        </entry>
+        <entry key="Web:UnclosedTagCheck">
+          <value>
+            <Rule key="Web:UnclosedTagCheck" />
+          </value>
+        </entry>
+        <entry key="Web:UnifiedExpressionCheck">
+          <value>
+            <Rule key="Web:UnifiedExpressionCheck" />
+          </value>
+        </entry>
+        <entry key="Web:WhiteSpaceAroundCheck">
+          <value>
+            <Rule key="Web:WhiteSpaceAroundCheck" />
+          </value>
+        </entry>
+        <entry key="Web:WmodeIsWindowCheck">
+          <value>
+            <Rule key="Web:WmodeIsWindowCheck" />
+          </value>
+        </entry>
+        <entry key="cloudformation:S2260">
+          <value>
+            <Rule key="cloudformation:S2260" />
+          </value>
+        </entry>
+        <entry key="docker:S2260">
+          <value>
+            <Rule key="docker:S2260" />
+          </value>
+        </entry>
+        <entry key="docker:S7023">
+          <value>
+            <Rule key="docker:S7023" />
+          </value>
+        </entry>
+        <entry key="docker:S7028">
+          <value>
+            <Rule key="docker:S7028" />
+          </value>
+        </entry>
+        <entry key="java:NoSonar">
+          <value>
+            <Rule key="java:NoSonar" />
+          </value>
+        </entry>
+        <entry key="java:S103">
+          <value>
+            <Rule key="java:S103" />
+          </value>
+        </entry>
+        <entry key="java:S104">
+          <value>
+            <Rule key="java:S104" />
+          </value>
+        </entry>
+        <entry key="java:S105">
+          <value>
+            <Rule key="java:S105" />
+          </value>
+        </entry>
+        <entry key="java:S1067">
+          <value>
+            <Rule key="java:S1067" />
+          </value>
+        </entry>
+        <entry key="java:S109">
+          <value>
+            <Rule key="java:S109" />
+          </value>
+        </entry>
+        <entry key="java:S1105">
+          <value>
+            <Rule key="java:S1105" />
+          </value>
+        </entry>
+        <entry key="java:S1106">
+          <value>
+            <Rule key="java:S1106" />
+          </value>
+        </entry>
+        <entry key="java:S1107">
+          <value>
+            <Rule key="java:S1107" />
+          </value>
+        </entry>
+        <entry key="java:S1108">
+          <value>
+            <Rule key="java:S1108" />
+          </value>
+        </entry>
+        <entry key="java:S1109">
+          <value>
+            <Rule key="java:S1109" />
+          </value>
+        </entry>
+        <entry key="java:S1114">
+          <value>
+            <Rule key="java:S1114" />
+          </value>
+        </entry>
+        <entry key="java:S1120">
+          <value>
+            <Rule key="java:S1120" />
+          </value>
+        </entry>
+        <entry key="java:S113">
+          <value>
+            <Rule key="java:S113" />
+          </value>
+        </entry>
+        <entry key="java:S1132">
+          <value>
+            <Rule key="java:S1132" />
+          </value>
+        </entry>
+        <entry key="java:S1142">
+          <value>
+            <Rule key="java:S1142" />
+          </value>
+        </entry>
+        <entry key="java:S1147">
+          <value>
+            <Rule key="java:S1147" />
+          </value>
+        </entry>
+        <entry key="java:S1151">
+          <value>
+            <Rule key="java:S1151" />
+          </value>
+        </entry>
+        <entry key="java:S1160">
+          <value>
+            <Rule key="java:S1160" />
+          </value>
+        </entry>
+        <entry key="java:S1162">
+          <value>
+            <Rule key="java:S1162" />
+          </value>
+        </entry>
+        <entry key="java:S1166">
+          <value>
+            <Rule key="java:S1166" />
+          </value>
+        </entry>
+        <entry key="java:S1176">
+          <value>
+            <Rule key="java:S1176" />
+          </value>
+        </entry>
+        <entry key="java:S118">
+          <value>
+            <Rule key="java:S118" />
+          </value>
+        </entry>
+        <entry key="java:S1188">
+          <value>
+            <Rule key="java:S1188" />
+          </value>
+        </entry>
+        <entry key="java:S1194">
+          <value>
+            <Rule key="java:S1194" />
+          </value>
+        </entry>
+        <entry key="java:S1200">
+          <value>
+            <Rule key="java:S1200" />
+          </value>
+        </entry>
+        <entry key="java:S121">
+          <value>
+            <Rule key="java:S121" />
+          </value>
+        </entry>
+        <entry key="java:S1213">
+          <value>
+            <Rule key="java:S1213" />
+          </value>
+        </entry>
+        <entry key="java:S122">
+          <value>
+            <Rule key="java:S122" />
+          </value>
+        </entry>
+        <entry key="java:S1228">
+          <value>
+            <Rule key="java:S1228" />
+          </value>
+        </entry>
+        <entry key="java:S1244">
+          <value>
+            <Rule key="java:S1244" />
+          </value>
+        </entry>
+        <entry key="java:S1258">
+          <value>
+            <Rule key="java:S1258" />
+          </value>
+        </entry>
+        <entry key="java:S126">
+          <value>
+            <Rule key="java:S126" />
+          </value>
+        </entry>
+        <entry key="java:S1309">
+          <value>
+            <Rule key="java:S1309" />
+          </value>
+        </entry>
+        <entry key="java:S1310">
+          <value>
+            <Rule key="java:S1310" />
+          </value>
+        </entry>
+        <entry key="java:S1312">
+          <value>
+            <Rule key="java:S1312" />
+          </value>
+        </entry>
+        <entry key="java:S1314">
+          <value>
+            <Rule key="java:S1314" />
+          </value>
+        </entry>
+        <entry key="java:S1315">
+          <value>
+            <Rule key="java:S1315" />
+          </value>
+        </entry>
+        <entry key="java:S134">
+          <value>
+            <Rule key="java:S134" />
+          </value>
+        </entry>
+        <entry key="java:S138">
+          <value>
+            <Rule key="java:S138" />
+          </value>
+        </entry>
+        <entry key="java:S139">
+          <value>
+            <Rule key="java:S139" />
+          </value>
+        </entry>
+        <entry key="java:S1448">
+          <value>
+            <Rule key="java:S1448" />
+          </value>
+        </entry>
+        <entry key="java:S1449">
+          <value>
+            <Rule key="java:S1449" />
+          </value>
+        </entry>
+        <entry key="java:S1451">
+          <value>
+            <Rule key="java:S1451" />
+          </value>
+        </entry>
+        <entry key="java:S1541">
+          <value>
+            <Rule key="java:S1541" />
+          </value>
+        </entry>
+        <entry key="java:S1610">
+          <value>
+            <Rule key="java:S1610" />
+          </value>
+        </entry>
+        <entry key="java:S1641">
+          <value>
+            <Rule key="java:S1641" />
+          </value>
+        </entry>
+        <entry key="java:S1694">
+          <value>
+            <Rule key="java:S1694" />
+          </value>
+        </entry>
+        <entry key="java:S1695">
+          <value>
+            <Rule key="java:S1695" />
+          </value>
+        </entry>
+        <entry key="java:S1696">
+          <value>
+            <Rule key="java:S1696" />
+          </value>
+        </entry>
+        <entry key="java:S1698">
+          <value>
+            <Rule key="java:S1698" />
+          </value>
+        </entry>
+        <entry key="java:S1699">
+          <value>
+            <Rule key="java:S1699" />
+          </value>
+        </entry>
+        <entry key="java:S1711">
+          <value>
+            <Rule key="java:S1711" />
+          </value>
+        </entry>
+        <entry key="java:S1774">
+          <value>
+            <Rule key="java:S1774" />
+          </value>
+        </entry>
+        <entry key="java:S1820">
+          <value>
+            <Rule key="java:S1820" />
+          </value>
+        </entry>
+        <entry key="java:S1821">
+          <value>
+            <Rule key="java:S1821" />
+          </value>
+        </entry>
+        <entry key="java:S1939">
+          <value>
+            <Rule key="java:S1939" />
+          </value>
+        </entry>
+        <entry key="java:S1941">
+          <value>
+            <Rule key="java:S1941" />
+          </value>
+        </entry>
+        <entry key="java:S1942">
+          <value>
+            <Rule key="java:S1942" />
+          </value>
+        </entry>
+        <entry key="java:S1943">
+          <value>
+            <Rule key="java:S1943" />
+          </value>
+        </entry>
+        <entry key="java:S1996">
+          <value>
+            <Rule key="java:S1996" />
+          </value>
+        </entry>
+        <entry key="java:S2039">
+          <value>
+            <Rule key="java:S2039" />
+          </value>
+        </entry>
+        <entry key="java:S2047">
+          <value>
+            <Rule key="java:S2047" />
+          </value>
+        </entry>
+        <entry key="java:S2057">
+          <value>
+            <Rule key="java:S2057" />
+          </value>
+        </entry>
+        <entry key="java:S2059">
+          <value>
+            <Rule key="java:S2059" />
+          </value>
+        </entry>
+        <entry key="java:S2063">
+          <value>
+            <Rule key="java:S2063" />
+          </value>
+        </entry>
+        <entry key="java:S2096">
+          <value>
+            <Rule key="java:S2096" />
+          </value>
+        </entry>
+        <entry key="java:S2131">
+          <value>
+            <Rule key="java:S2131" />
+          </value>
+        </entry>
+        <entry key="java:S2141">
+          <value>
+            <Rule key="java:S2141" />
+          </value>
+        </entry>
+        <entry key="java:S2143">
+          <value>
+            <Rule key="java:S2143" />
+          </value>
+        </entry>
+        <entry key="java:S2148">
+          <value>
+            <Rule key="java:S2148" />
+          </value>
+        </entry>
+        <entry key="java:S2156">
+          <value>
+            <Rule key="java:S2156" />
+          </value>
+        </entry>
+        <entry key="java:S2162">
+          <value>
+            <Rule key="java:S2162" />
+          </value>
+        </entry>
+        <entry key="java:S2164">
+          <value>
+            <Rule key="java:S2164" />
+          </value>
+        </entry>
+        <entry key="java:S2165">
+          <value>
+            <Rule key="java:S2165" />
+          </value>
+        </entry>
+        <entry key="java:S2196">
+          <value>
+            <Rule key="java:S2196" />
+          </value>
+        </entry>
+        <entry key="java:S2197">
+          <value>
+            <Rule key="java:S2197" />
+          </value>
+        </entry>
+        <entry key="java:S2203">
+          <value>
+            <Rule key="java:S2203" />
+          </value>
+        </entry>
+        <entry key="java:S2208">
+          <value>
+            <Rule key="java:S2208" />
+          </value>
+        </entry>
+        <entry key="java:S2211">
+          <value>
+            <Rule key="java:S2211" />
+          </value>
+        </entry>
+        <entry key="java:S2221">
+          <value>
+            <Rule key="java:S2221" />
+          </value>
+        </entry>
+        <entry key="java:S2250">
+          <value>
+            <Rule key="java:S2250" />
+          </value>
+        </entry>
+        <entry key="java:S2260">
+          <value>
+            <Rule key="java:S2260" />
+          </value>
+        </entry>
+        <entry key="java:S2301">
+          <value>
+            <Rule key="java:S2301" />
+          </value>
+        </entry>
+        <entry key="java:S2308">
+          <value>
+            <Rule key="java:S2308" />
+          </value>
+        </entry>
+        <entry key="java:S2309">
+          <value>
+            <Rule key="java:S2309" />
+          </value>
+        </entry>
+        <entry key="java:S2325">
+          <value>
+            <Rule key="java:S2325" />
+          </value>
+        </entry>
+        <entry key="java:S2333">
+          <value>
+            <Rule key="java:S2333" />
+          </value>
+        </entry>
+        <entry key="java:S2384">
+          <value>
+            <Rule key="java:S2384" />
+          </value>
+        </entry>
+        <entry key="java:S2444">
+          <value>
+            <Rule key="java:S2444" />
+          </value>
+        </entry>
+        <entry key="java:S2647">
+          <value>
+            <Rule key="java:S2647" />
+          </value>
+        </entry>
+        <entry key="java:S2658">
+          <value>
+            <Rule key="java:S2658" />
+          </value>
+        </entry>
+        <entry key="java:S2693">
+          <value>
+            <Rule key="java:S2693" />
+          </value>
+        </entry>
+        <entry key="java:S2694">
+          <value>
+            <Rule key="java:S2694" />
+          </value>
+        </entry>
+        <entry key="java:S2698">
+          <value>
+            <Rule key="java:S2698" />
+          </value>
+        </entry>
+        <entry key="java:S2701">
+          <value>
+            <Rule key="java:S2701" />
+          </value>
+        </entry>
+        <entry key="java:S2959">
+          <value>
+            <Rule key="java:S2959" />
+          </value>
+        </entry>
+        <entry key="java:S2972">
+          <value>
+            <Rule key="java:S2972" />
+          </value>
+        </entry>
+        <entry key="java:S2973">
+          <value>
+            <Rule key="java:S2973" />
+          </value>
+        </entry>
+        <entry key="java:S2974">
+          <value>
+            <Rule key="java:S2974" />
+          </value>
+        </entry>
+        <entry key="java:S3030">
+          <value>
+            <Rule key="java:S3030" />
+          </value>
+        </entry>
+        <entry key="java:S3032">
+          <value>
+            <Rule key="java:S3032" />
+          </value>
+        </entry>
+        <entry key="java:S3047">
+          <value>
+            <Rule key="java:S3047" />
+          </value>
+        </entry>
+        <entry key="java:S3052">
+          <value>
+            <Rule key="java:S3052" />
+          </value>
+        </entry>
+        <entry key="java:S3242">
+          <value>
+            <Rule key="java:S3242" />
+          </value>
+        </entry>
+        <entry key="java:S3254">
+          <value>
+            <Rule key="java:S3254" />
+          </value>
+        </entry>
+        <entry key="java:S3306">
+          <value>
+            <Rule key="java:S3306" />
+          </value>
+        </entry>
+        <entry key="java:S3366">
+          <value>
+            <Rule key="java:S3366" />
+          </value>
+        </entry>
+        <entry key="java:S3414">
+          <value>
+            <Rule key="java:S3414" />
+          </value>
+        </entry>
+        <entry key="java:S3437">
+          <value>
+            <Rule key="java:S3437" />
+          </value>
+        </entry>
+        <entry key="java:S3553">
+          <value>
+            <Rule key="java:S3553" />
+          </value>
+        </entry>
+        <entry key="java:S3578">
+          <value>
+            <Rule key="java:S3578" />
+          </value>
+        </entry>
+        <entry key="java:S3658">
+          <value>
+            <Rule key="java:S3658" />
+          </value>
+        </entry>
+        <entry key="java:S3725">
+          <value>
+            <Rule key="java:S3725" />
+          </value>
+        </entry>
+        <entry key="java:S3749">
+          <value>
+            <Rule key="java:S3749" />
+          </value>
+        </entry>
+        <entry key="java:S3750">
+          <value>
+            <Rule key="java:S3750" />
+          </value>
+        </entry>
+        <entry key="java:S3937">
+          <value>
+            <Rule key="java:S3937" />
+          </value>
+        </entry>
+        <entry key="java:S4174">
+          <value>
+            <Rule key="java:S4174" />
+          </value>
+        </entry>
+        <entry key="java:S4248">
+          <value>
+            <Rule key="java:S4248" />
+          </value>
+        </entry>
+        <entry key="java:S4266">
+          <value>
+            <Rule key="java:S4266" />
+          </value>
+        </entry>
+        <entry key="java:S4288">
+          <value>
+            <Rule key="java:S4288" />
+          </value>
+        </entry>
+        <entry key="java:S4551">
+          <value>
+            <Rule key="java:S4551" />
+          </value>
+        </entry>
+        <entry key="java:S4604">
+          <value>
+            <Rule key="java:S4604" />
+          </value>
+        </entry>
+        <entry key="java:S4605">
+          <value>
+            <Rule key="java:S4605" />
+          </value>
+        </entry>
+        <entry key="java:S4926">
+          <value>
+            <Rule key="java:S4926" />
+          </value>
+        </entry>
+        <entry key="java:S5128">
+          <value>
+            <Rule key="java:S5128" />
+          </value>
+        </entry>
+        <entry key="java:S5194">
+          <value>
+            <Rule key="java:S5194" />
+          </value>
+        </entry>
+        <entry key="java:S5612">
+          <value>
+            <Rule key="java:S5612" />
+          </value>
+        </entry>
+        <entry key="java:S5793">
+          <value>
+            <Rule key="java:S5793" />
+          </value>
+        </entry>
+        <entry key="java:S5867">
+          <value>
+            <Rule key="java:S5867" />
+          </value>
+        </entry>
+        <entry key="java:S5970">
+          <value>
+            <Rule key="java:S5970" />
+          </value>
+        </entry>
+        <entry key="java:S5977">
+          <value>
+            <Rule key="java:S5977" />
+          </value>
+        </entry>
+        <entry key="java:S5979">
+          <value>
+            <Rule key="java:S5979" />
+          </value>
+        </entry>
+        <entry key="java:S6073">
+          <value>
+            <Rule key="java:S6073" />
+          </value>
+        </entry>
+        <entry key="java:S6211">
+          <value>
+            <Rule key="java:S6211" />
+          </value>
+        </entry>
+        <entry key="java:S6212">
+          <value>
+            <Rule key="java:S6212" />
+          </value>
+        </entry>
+        <entry key="java:S6374">
+          <value>
+            <Rule key="java:S6374" />
+          </value>
+        </entry>
+        <entry key="java:S6411">
+          <value>
+            <Rule key="java:S6411" />
+          </value>
+        </entry>
+        <entry key="java:S6891">
+          <value>
+            <Rule key="java:S6891" />
+          </value>
+        </entry>
+        <entry key="java:S6898">
+          <value>
+            <Rule key="java:S6898" />
+          </value>
+        </entry>
+        <entry key="java:S6904">
+          <value>
+            <Rule key="java:S6904" />
+          </value>
+        </entry>
+        <entry key="java:S6914">
+          <value>
+            <Rule key="java:S6914" />
+          </value>
+        </entry>
+        <entry key="java:S6923">
+          <value>
+            <Rule key="java:S6923" />
+          </value>
+        </entry>
+        <entry key="java:S6926">
+          <value>
+            <Rule key="java:S6926" />
+          </value>
+        </entry>
+        <entry key="java:S818">
+          <value>
+            <Rule key="java:S818" />
+          </value>
+        </entry>
+        <entry key="java:S864">
+          <value>
+            <Rule key="java:S864" />
+          </value>
+        </entry>
+        <entry key="java:S881">
+          <value>
+            <Rule key="java:S881" />
+          </value>
+        </entry>
+        <entry key="java:S888">
+          <value>
+            <Rule key="java:S888" />
+          </value>
+        </entry>
+        <entry key="java:S923">
+          <value>
+            <Rule key="java:S923" />
+          </value>
+        </entry>
+        <entry key="kotlin:ParsingError">
+          <value>
+            <Rule key="kotlin:ParsingError" />
+          </value>
+        </entry>
+        <entry key="kotlin:S103">
+          <value>
+            <Rule key="kotlin:S103" />
+          </value>
+        </entry>
+        <entry key="kotlin:S104">
+          <value>
+            <Rule key="kotlin:S104" />
+          </value>
+        </entry>
+        <entry key="kotlin:S105">
+          <value>
+            <Rule key="kotlin:S105" />
+          </value>
+        </entry>
+        <entry key="kotlin:S1067">
+          <value>
+            <Rule key="kotlin:S1067" />
+          </value>
+        </entry>
+        <entry key="kotlin:S1151">
+          <value>
+            <Rule key="kotlin:S1151" />
+          </value>
+        </entry>
+        <entry key="kotlin:S122">
+          <value>
+            <Rule key="kotlin:S122" />
+          </value>
+        </entry>
+        <entry key="kotlin:S126">
+          <value>
+            <Rule key="kotlin:S126" />
+          </value>
+        </entry>
+        <entry key="kotlin:S134">
+          <value>
+            <Rule key="kotlin:S134" />
+          </value>
+        </entry>
+        <entry key="kotlin:S138">
+          <value>
+            <Rule key="kotlin:S138" />
+          </value>
+        </entry>
+        <entry key="kotlin:S1451">
+          <value>
+            <Rule key="kotlin:S1451" />
+          </value>
+        </entry>
+        <entry key="kotlin:S1821">
+          <value>
+            <Rule key="kotlin:S1821" />
+          </value>
+        </entry>
+        <entry key="kotlin:S3353">
+          <value>
+            <Rule key="kotlin:S3353" />
+          </value>
+        </entry>
+        <entry key="kotlin:S5612">
+          <value>
+            <Rule key="kotlin:S5612" />
+          </value>
+        </entry>
+        <entry key="kotlin:S5867">
+          <value>
+            <Rule key="kotlin:S5867" />
+          </value>
+        </entry>
+        <entry key="kubernetes:S2260">
+          <value>
+            <Rule key="kubernetes:S2260" />
+          </value>
+        </entry>
+        <entry key="kubernetes:S6869">
+          <value>
+            <Rule key="kubernetes:S6869" />
+          </value>
+        </entry>
+        <entry key="php:NoSonar">
+          <value>
+            <Rule key="php:NoSonar" />
+          </value>
+        </entry>
+        <entry key="php:S103">
+          <value>
+            <Rule key="php:S103" />
+          </value>
+        </entry>
+        <entry key="php:S104">
+          <value>
+            <Rule key="php:S104" />
+          </value>
+        </entry>
+        <entry key="php:S1067">
+          <value>
+            <Rule key="php:S1067" />
+          </value>
+        </entry>
+        <entry key="php:S1105">
+          <value>
+            <Rule key="php:S1105" />
+          </value>
+        </entry>
+        <entry key="php:S1106">
+          <value>
+            <Rule key="php:S1106" />
+          </value>
+        </entry>
+        <entry key="php:S1117">
+          <value>
+            <Rule key="php:S1117" />
+          </value>
+        </entry>
+        <entry key="php:S1121">
+          <value>
+            <Rule key="php:S1121" />
+          </value>
+        </entry>
+        <entry key="php:S1151">
+          <value>
+            <Rule key="php:S1151" />
+          </value>
+        </entry>
+        <entry key="php:S1200">
+          <value>
+            <Rule key="php:S1200" />
+          </value>
+        </entry>
+        <entry key="php:S122">
+          <value>
+            <Rule key="php:S122" />
+          </value>
+        </entry>
+        <entry key="php:S126">
+          <value>
+            <Rule key="php:S126" />
+          </value>
+        </entry>
+        <entry key="php:S1311">
+          <value>
+            <Rule key="php:S1311" />
+          </value>
+        </entry>
+        <entry key="php:S1314">
+          <value>
+            <Rule key="php:S1314" />
+          </value>
+        </entry>
+        <entry key="php:S134">
+          <value>
+            <Rule key="php:S134" />
+          </value>
+        </entry>
+        <entry key="php:S139">
+          <value>
+            <Rule key="php:S139" />
+          </value>
+        </entry>
+        <entry key="php:S1451">
+          <value>
+            <Rule key="php:S1451" />
+          </value>
+        </entry>
+        <entry key="php:S1541">
+          <value>
+            <Rule key="php:S1541" />
+          </value>
+        </entry>
+        <entry key="php:S1578">
+          <value>
+            <Rule key="php:S1578" />
+          </value>
+        </entry>
+        <entry key="php:S1779">
+          <value>
+            <Rule key="php:S1779" />
+          </value>
+        </entry>
+        <entry key="php:S1799">
+          <value>
+            <Rule key="php:S1799" />
+          </value>
+        </entry>
+        <entry key="php:S1808">
+          <value>
+            <Rule key="php:S1808" />
+          </value>
+        </entry>
+        <entry key="php:S1820">
+          <value>
+            <Rule key="php:S1820" />
+          </value>
+        </entry>
+        <entry key="php:S1821">
+          <value>
+            <Rule key="php:S1821" />
+          </value>
+        </entry>
+        <entry key="php:S1990">
+          <value>
+            <Rule key="php:S1990" />
+          </value>
+        </entry>
+        <entry key="php:S1996">
+          <value>
+            <Rule key="php:S1996" />
+          </value>
+        </entry>
+        <entry key="php:S1997">
+          <value>
+            <Rule key="php:S1997" />
+          </value>
+        </entry>
+        <entry key="php:S2000">
+          <value>
+            <Rule key="php:S2000" />
+          </value>
+        </entry>
+        <entry key="php:S2001">
+          <value>
+            <Rule key="php:S2001" />
+          </value>
+        </entry>
+        <entry key="php:S2002">
+          <value>
+            <Rule key="php:S2002" />
+          </value>
+        </entry>
+        <entry key="php:S2005">
+          <value>
+            <Rule key="php:S2005" />
+          </value>
+        </entry>
+        <entry key="php:S2007">
+          <value>
+            <Rule key="php:S2007" />
+          </value>
+        </entry>
+        <entry key="php:S2011">
+          <value>
+            <Rule key="php:S2011" />
+          </value>
+        </entry>
+        <entry key="php:S2036">
+          <value>
+            <Rule key="php:S2036" />
+          </value>
+        </entry>
+        <entry key="php:S2037">
+          <value>
+            <Rule key="php:S2037" />
+          </value>
+        </entry>
+        <entry key="php:S2038">
+          <value>
+            <Rule key="php:S2038" />
+          </value>
+        </entry>
+        <entry key="php:S2041">
+          <value>
+            <Rule key="php:S2041" />
+          </value>
+        </entry>
+        <entry key="php:S2042">
+          <value>
+            <Rule key="php:S2042" />
+          </value>
+        </entry>
+        <entry key="php:S2043">
+          <value>
+            <Rule key="php:S2043" />
+          </value>
+        </entry>
+        <entry key="php:S2044">
+          <value>
+            <Rule key="php:S2044" />
+          </value>
+        </entry>
+        <entry key="php:S2046">
+          <value>
+            <Rule key="php:S2046" />
+          </value>
+        </entry>
+        <entry key="php:S2047">
+          <value>
+            <Rule key="php:S2047" />
+          </value>
+        </entry>
+        <entry key="php:S2050">
+          <value>
+            <Rule key="php:S2050" />
+          </value>
+        </entry>
+        <entry key="php:S2070">
+          <value>
+            <Rule key="php:S2070" />
+          </value>
+        </entry>
+        <entry key="php:S2260">
+          <value>
+            <Rule key="php:S2260" />
+          </value>
+        </entry>
+        <entry key="php:S2277">
+          <value>
+            <Rule key="php:S2277" />
+          </value>
+        </entry>
+        <entry key="php:S2278">
+          <value>
+            <Rule key="php:S2278" />
+          </value>
+        </entry>
+        <entry key="php:S2701">
+          <value>
+            <Rule key="php:S2701" />
+          </value>
+        </entry>
+        <entry key="php:S2830">
+          <value>
+            <Rule key="php:S2830" />
+          </value>
+        </entry>
+        <entry key="php:S2918">
+          <value>
+            <Rule key="php:S2918" />
+          </value>
+        </entry>
+        <entry key="php:S2964">
+          <value>
+            <Rule key="php:S2964" />
+          </value>
+        </entry>
+        <entry key="php:S3332">
+          <value>
+            <Rule key="php:S3332" />
+          </value>
+        </entry>
+        <entry key="php:S3333">
+          <value>
+            <Rule key="php:S3333" />
+          </value>
+        </entry>
+        <entry key="php:S3334">
+          <value>
+            <Rule key="php:S3334" />
+          </value>
+        </entry>
+        <entry key="php:S3335">
+          <value>
+            <Rule key="php:S3335" />
+          </value>
+        </entry>
+        <entry key="php:S3336">
+          <value>
+            <Rule key="php:S3336" />
+          </value>
+        </entry>
+        <entry key="php:S3337">
+          <value>
+            <Rule key="php:S3337" />
+          </value>
+        </entry>
+        <entry key="php:S3338">
+          <value>
+            <Rule key="php:S3338" />
+          </value>
+        </entry>
+        <entry key="php:S4142">
+          <value>
+            <Rule key="php:S4142" />
+          </value>
+        </entry>
+        <entry key="php:S5783">
+          <value>
+            <Rule key="php:S5783" />
+          </value>
+        </entry>
+        <entry key="php:S5856">
+          <value>
+            <Rule key="php:S5856" />
+          </value>
+        </entry>
+        <entry key="php:S5867">
+          <value>
+            <Rule key="php:S5867" />
+          </value>
+        </entry>
+        <entry key="php:S5899">
+          <value>
+            <Rule key="php:S5899" />
+          </value>
+        </entry>
+        <entry key="php:S5915">
+          <value>
+            <Rule key="php:S5915" />
+          </value>
+        </entry>
+        <entry key="php:S5935">
+          <value>
+            <Rule key="php:S5935" />
+          </value>
+        </entry>
+        <entry key="php:S6339">
+          <value>
+            <Rule key="php:S6339" />
+          </value>
+        </entry>
+        <entry key="php:S881">
+          <value>
+            <Rule key="php:S881" />
+          </value>
+        </entry>
+        <entry key="python:ClassComplexity">
+          <value>
+            <Rule key="python:ClassComplexity" />
+          </value>
+        </entry>
+        <entry key="python:FileComplexity">
+          <value>
+            <Rule key="python:FileComplexity" />
+          </value>
+        </entry>
+        <entry key="python:FunctionComplexity">
+          <value>
+            <Rule key="python:FunctionComplexity" />
+          </value>
+        </entry>
+        <entry key="python:LineLength">
+          <value>
+            <Rule key="python:LineLength" />
+          </value>
+        </entry>
+        <entry key="python:LongIntegerWithLowercaseSuffixUsage">
+          <value>
+            <Rule key="python:LongIntegerWithLowercaseSuffixUsage" />
+          </value>
+        </entry>
+        <entry key="python:NoSonar">
+          <value>
+            <Rule key="python:NoSonar" />
+          </value>
+        </entry>
+        <entry key="python:OneStatementPerLine">
+          <value>
+            <Rule key="python:OneStatementPerLine" />
+          </value>
+        </entry>
+        <entry key="python:ParsingError">
+          <value>
+            <Rule key="python:ParsingError" />
+          </value>
+        </entry>
+        <entry key="python:S104">
+          <value>
+            <Rule key="python:S104" />
+          </value>
+        </entry>
+        <entry key="python:S1128">
+          <value>
+            <Rule key="python:S1128" />
+          </value>
+        </entry>
+        <entry key="python:S113">
+          <value>
+            <Rule key="python:S113" />
+          </value>
+        </entry>
+        <entry key="python:S1131">
+          <value>
+            <Rule key="python:S1131" />
+          </value>
+        </entry>
+        <entry key="python:S1142">
+          <value>
+            <Rule key="python:S1142" />
+          </value>
+        </entry>
+        <entry key="python:S134">
+          <value>
+            <Rule key="python:S134" />
+          </value>
+        </entry>
+        <entry key="python:S138">
+          <value>
+            <Rule key="python:S138" />
+          </value>
+        </entry>
+        <entry key="python:S139">
+          <value>
+            <Rule key="python:S139" />
+          </value>
+        </entry>
+        <entry key="python:S1451">
+          <value>
+            <Rule key="python:S1451" />
+          </value>
+        </entry>
+        <entry key="python:S1578">
+          <value>
+            <Rule key="python:S1578" />
+          </value>
+        </entry>
+        <entry key="python:S1707">
+          <value>
+            <Rule key="python:S1707" />
+          </value>
+        </entry>
+        <entry key="python:S1717">
+          <value>
+            <Rule key="python:S1717" />
+          </value>
+        </entry>
+        <entry key="python:S1720">
+          <value>
+            <Rule key="python:S1720" />
+          </value>
+        </entry>
+        <entry key="python:S1721">
+          <value>
+            <Rule key="python:S1721" />
+          </value>
+        </entry>
+        <entry key="python:S1722">
+          <value>
+            <Rule key="python:S1722" />
+          </value>
+        </entry>
+        <entry key="python:S2325">
+          <value>
+            <Rule key="python:S2325" />
+          </value>
+        </entry>
+        <entry key="python:S2712">
+          <value>
+            <Rule key="python:S2712" />
+          </value>
+        </entry>
+        <entry key="python:S2733">
+          <value>
+            <Rule key="python:S2733" />
+          </value>
+        </entry>
+        <entry key="python:S3801">
+          <value>
+            <Rule key="python:S3801" />
+          </value>
+        </entry>
+        <entry key="python:S5439">
+          <value>
+            <Rule key="python:S5439" />
+          </value>
+        </entry>
+        <entry key="python:S5856">
+          <value>
+            <Rule key="python:S5856" />
+          </value>
+        </entry>
+        <entry key="python:S5953">
+          <value>
+            <Rule key="python:S5953" />
+          </value>
+        </entry>
+        <entry key="python:S6538">
+          <value>
+            <Rule key="python:S6538" />
+          </value>
+        </entry>
+        <entry key="python:S6540">
+          <value>
+            <Rule key="python:S6540" />
+          </value>
+        </entry>
+        <entry key="python:S6542">
+          <value>
+            <Rule key="python:S6542" />
+          </value>
+        </entry>
+        <entry key="python:S6543">
+          <value>
+            <Rule key="python:S6543" />
+          </value>
+        </entry>
+        <entry key="python:S6545">
+          <value>
+            <Rule key="python:S6545" />
+          </value>
+        </entry>
+        <entry key="python:S6554">
+          <value>
+            <Rule key="python:S6554" />
+          </value>
+        </entry>
+        <entry key="python:S6661">
+          <value>
+            <Rule key="python:S6661" />
+          </value>
+        </entry>
+        <entry key="python:S6740">
+          <value>
+            <Rule key="python:S6740" />
+          </value>
+        </entry>
+        <entry key="ruby:S103">
+          <value>
+            <Rule key="ruby:S103" />
+          </value>
+        </entry>
+        <entry key="ruby:S104">
+          <value>
+            <Rule key="ruby:S104" />
+          </value>
+        </entry>
+        <entry key="ruby:S105">
+          <value>
+            <Rule key="ruby:S105" />
+          </value>
+        </entry>
+        <entry key="ruby:S1067">
+          <value>
+            <Rule key="ruby:S1067" />
+          </value>
+        </entry>
+        <entry key="ruby:S1151">
+          <value>
+            <Rule key="ruby:S1151" />
+          </value>
+        </entry>
+        <entry key="ruby:S122">
+          <value>
+            <Rule key="ruby:S122" />
+          </value>
+        </entry>
+        <entry key="ruby:S126">
+          <value>
+            <Rule key="ruby:S126" />
+          </value>
+        </entry>
+        <entry key="ruby:S1314">
+          <value>
+            <Rule key="ruby:S1314" />
+          </value>
+        </entry>
+        <entry key="ruby:S134">
+          <value>
+            <Rule key="ruby:S134" />
+          </value>
+        </entry>
+        <entry key="ruby:S138">
+          <value>
+            <Rule key="ruby:S138" />
+          </value>
+        </entry>
+        <entry key="ruby:S1451">
+          <value>
+            <Rule key="ruby:S1451" />
+          </value>
+        </entry>
+        <entry key="ruby:S1821">
+          <value>
+            <Rule key="ruby:S1821" />
+          </value>
+        </entry>
+        <entry key="terraform:S2260">
+          <value>
+            <Rule key="terraform:S2260" />
+          </value>
+        </entry>
+        <entry key="xml:S103">
+          <value>
+            <Rule key="xml:S103" />
+          </value>
+        </entry>
+        <entry key="xml:S105">
+          <value>
+            <Rule key="xml:S105" />
+          </value>
+        </entry>
+        <entry key="xml:S1120">
+          <value>
+            <Rule key="xml:S1120" />
+          </value>
+        </entry>
+        <entry key="xml:S2260">
+          <value>
+            <Rule key="xml:S2260" />
+          </value>
+        </entry>
+        <entry key="xml:S2321">
+          <value>
+            <Rule key="xml:S2321" />
+          </value>
+        </entry>
+        <entry key="xml:S3282">
+          <value>
+            <Rule key="xml:S3282" />
+          </value>
+        </entry>
+        <entry key="xml:S3373">
+          <value>
+            <Rule key="xml:S3373" />
+          </value>
+        </entry>
+        <entry key="xml:S3419">
+          <value>
+            <Rule key="xml:S3419" />
+          </value>
+        </entry>
+        <entry key="xml:S3420">
+          <value>
+            <Rule key="xml:S3420" />
+          </value>
+        </entry>
+        <entry key="xml:S3423">
+          <value>
+            <Rule key="xml:S3423" />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <rules>
+      <Rule key="python:S6538" />
+      <Rule key="java:S1774" />
+      <Rule key="java:S4926" />
+      <Rule key="python:S2733" />
+      <Rule key="Web:S1436" />
+      <Rule key="Web:InlineStyleCheck" />
+      <Rule key="Web:UnclosedTagCheck" />
+      <Rule key="python:FileComplexity" />
+      <Rule key="java:S2196" />
+      <Rule key="java:S2197" />
+      <Rule key="java:S3047" />
+      <Rule key="php:S1779" />
+      <Rule key="java:S818" />
+      <Rule key="java:S3725" />
+      <Rule key="java:S1641" />
+      <Rule key="Web:FileLengthCheck" />
+      <Rule key="python:S6540" />
+      <Rule key="python:S6661" />
+      <Rule key="python:S6543" />
+      <Rule key="python:S6542" />
+      <Rule key="python:S6545" />
+      <Rule key="php:S2070" />
+      <Rule key="php:S1541" />
+      <Rule key="ruby:S105" />
+      <Rule key="java:S3052" />
+      <Rule key="ruby:S104" />
+      <Rule key="ruby:S103" />
+      <Rule key="java:S4266" />
+      <Rule key="java:S1996" />
+      <Rule key="kotlin:S1067" />
+      <Rule key="java:S2647" />
+      <Rule key="php:S881" />
+      <Rule key="docker:S7023" />
+      <Rule key="xml:S2321" />
+      <Rule key="php:S2043" />
+      <Rule key="docker:S7028" />
+      <Rule key="php:S2044" />
+      <Rule key="java:S1194" />
+      <Rule key="php:S2041" />
+      <Rule key="python:S6554" />
+      <Rule key="php:S2042" />
+      <Rule key="Web:TableWithoutCaptionCheck" />
+      <Rule key="Web:NonConsecutiveHeadingCheck" />
+      <Rule key="xml:S3419" />
+      <Rule key="php:S1996" />
+      <Rule key="php:S1997" />
+      <Rule key="Web:MaxLineLengthCheck" />
+      <Rule key="php:S2964" />
+      <Rule key="php:S2047" />
+      <Rule key="java:S6211" />
+      <Rule key="php:S1990" />
+      <Rule key="java:S2096" />
+      <Rule key="php:S2046" />
+      <Rule key="Web:WhiteSpaceAroundCheck" />
+      <Rule key="java:S6212" />
+      <Rule key="ruby:S1314" />
+      <Rule key="java:S5128" />
+      <Rule key="java:S2658" />
+      <Rule key="kotlin:S3353" />
+      <Rule key="java:S1188" />
+      <Rule key="java:S1067" />
+      <Rule key="java:S3749" />
+      <Rule key="php:S2050" />
+      <Rule key="Web:ComplexityCheck" />
+      <Rule key="java:S4288" />
+      <Rule key="java:S3750" />
+      <Rule key="java:S2301" />
+      <Rule key="docker:S2260" />
+      <Rule key="kubernetes:S2260" />
+      <Rule key="java:S4604" />
+      <Rule key="java:S6904" />
+      <Rule key="java:S1610" />
+      <Rule key="python:S104" />
+      <Rule key="java:S4605" />
+      <Rule key="java:S2308" />
+      <Rule key="java:S1176" />
+      <Rule key="java:S2309" />
+      <Rule key="Web:LongJavaScriptCheck" />
+      <Rule key="Web:DynamicJspIncludeCheck" />
+      <Rule key="php:S2260" />
+      <Rule key="Web:ServerSideImageMapsCheck" />
+      <Rule key="Web:LinkToNothingCheck" />
+      <Rule key="php:S2701" />
+      <Rule key="kotlin:ParsingError" />
+      <Rule key="java:S4174" />
+      <Rule key="ruby:S138" />
+      <Rule key="java:S118" />
+      <Rule key="php:S5899" />
+      <Rule key="java:S113" />
+      <Rule key="python:S113" />
+      <Rule key="python:S1451" />
+      <Rule key="java:S6914" />
+      <Rule key="java:S1166" />
+      <Rule key="php:S5783" />
+      <Rule key="java:S1162" />
+      <Rule key="java:S1160" />
+      <Rule key="python:S1578" />
+      <Rule key="php:S2830" />
+      <Rule key="php:S2038" />
+      <Rule key="python:LongIntegerWithLowercaseSuffixUsage" />
+      <Rule key="php:S2036" />
+      <Rule key="php:S2278" />
+      <Rule key="php:S2037" />
+      <Rule key="php:S1067" />
+      <Rule key="php:S2277" />
+      <Rule key="Web:UnifiedExpressionCheck" />
+      <Rule key="java:S109" />
+      <Rule key="Web:JspScriptletCheck" />
+      <Rule key="python:ClassComplexity" />
+      <Rule key="java:S103" />
+      <Rule key="java:S6923" />
+      <Rule key="java:S2444" />
+      <Rule key="java:S105" />
+      <Rule key="java:S1711" />
+      <Rule key="java:S2203" />
+      <Rule key="java:S104" />
+      <Rule key="java:S2325" />
+      <Rule key="java:S3414" />
+      <Rule key="kubernetes:S6869" />
+      <Rule key="java:S6926" />
+      <Rule key="java:S3658" />
+      <Rule key="java:S2208" />
+      <Rule key="java:S1151" />
+      <Rule key="php:S2000" />
+      <Rule key="ruby:S122" />
+      <Rule key="php:S1151" />
+      <Rule key="php:NoSonar" />
+      <Rule key="Web:InputWithoutLabelCheck" />
+      <Rule key="php:S2007" />
+      <Rule key="php:S3338" />
+      <Rule key="php:S3337" />
+      <Rule key="php:S2005" />
+      <Rule key="java:S134" />
+      <Rule key="php:S3336" />
+      <Rule key="php:S3335" />
+      <Rule key="php:S3334" />
+      <Rule key="Web:ImgWithoutWidthOrHeightCheck" />
+      <Rule key="php:S3333" />
+      <Rule key="php:S2001" />
+      <Rule key="php:S2002" />
+      <Rule key="php:S3332" />
+      <Rule key="java:S6374" />
+      <Rule key="java:S139" />
+      <Rule key="java:S2693" />
+      <Rule key="java:S2694" />
+      <Rule key="java:S2211" />
+      <Rule key="python:S134" />
+      <Rule key="java:S2333" />
+      <Rule key="java:S1943" />
+      <Rule key="java:S138" />
+      <Rule key="java:S2698" />
+      <Rule key="java:S1821" />
+      <Rule key="java:S1942" />
+      <Rule key="python:LineLength" />
+      <Rule key="java:S1820" />
+      <Rule key="java:S1941" />
+      <Rule key="java:S3306" />
+      <Rule key="java:S1147" />
+      <Rule key="java:S1142" />
+      <Rule key="ruby:S134" />
+      <Rule key="php:S2011" />
+      <Rule key="Web:PageWithoutFaviconCheck" />
+      <Rule key="Web:MultiplePageDirectivesCheck" />
+      <Rule key="python:S2325" />
+      <Rule key="python:S5953" />
+      <Rule key="Web:IllegalNamespaceCheck" />
+      <Rule key="java:S121" />
+      <Rule key="ruby:S1067" />
+      <Rule key="java:S122" />
+      <Rule key="cloudformation:S2260" />
+      <Rule key="ruby:S126" />
+      <Rule key="java:S1939" />
+      <Rule key="java:S5970" />
+      <Rule key="java:S923" />
+      <Rule key="java:S2221" />
+      <Rule key="java:S3553" />
+      <Rule key="java:S5612" />
+      <Rule key="java:S5977" />
+      <Rule key="xml:S3282" />
+      <Rule key="java:S126" />
+      <Rule key="java:S1258" />
+      <Rule key="java:S5979" />
+      <Rule key="java:S3437" />
+      <Rule key="php:S103" />
+      <Rule key="java:S1132" />
+      <Rule key="php:S1808" />
+      <Rule key="php:S104" />
+      <Rule key="python:S1128" />
+      <Rule key="kotlin:S134" />
+      <Rule key="Web:BoldAndItalicTagsCheck" />
+      <Rule key="kotlin:S138" />
+      <Rule key="xml:S2260" />
+      <Rule key="php:S5856" />
+      <Rule key="java:S5867" />
+      <Rule key="python:S138" />
+      <Rule key="python:S5856" />
+      <Rule key="python:S139" />
+      <Rule key="java:S1244" />
+      <Rule key="python:S1131" />
+      <Rule key="java:S1120" />
+      <Rule key="python:OneStatementPerLine" />
+      <Rule key="kotlin:S126" />
+      <Rule key="php:S1820" />
+      <Rule key="php:S1821" />
+      <Rule key="java:S5194" />
+      <Rule key="php:S2918" />
+      <Rule key="kotlin:S122" />
+      <Rule key="php:S5867" />
+      <Rule key="python:FunctionComplexity" />
+      <Rule key="java:S3578" />
+      <Rule key="terraform:S2260" />
+      <Rule key="java:S1114" />
+      <Rule key="php:S122" />
+      <Rule key="Web:AvoidHtmlCommentCheck" />
+      <Rule key="python:S1142" />
+      <Rule key="php:S126" />
+      <Rule key="Web:IllegalElementCheck" />
+      <Rule key="ruby:S1151" />
+      <Rule key="php:S1117" />
+      <Rule key="java:S2250" />
+      <Rule key="java:S2131" />
+      <Rule key="java:S4551" />
+      <Rule key="Web:IllegalTabCheck" />
+      <Rule key="java:S1109" />
+      <Rule key="xml:S3373" />
+      <Rule key="java:S1108" />
+      <Rule key="java:S1228" />
+      <Rule key="java:S1107" />
+      <Rule key="java:S1106" />
+      <Rule key="java:S1105" />
+      <Rule key="kotlin:S1451" />
+      <Rule key="php:S134" />
+      <Rule key="php:S139" />
+      <Rule key="Web:S1829" />
+      <Rule key="kotlin:S104" />
+      <Rule key="xml:S105" />
+      <Rule key="kotlin:S103" />
+      <Rule key="xml:S103" />
+      <Rule key="python:S1707" />
+      <Rule key="java:S2260" />
+      <Rule key="php:S1121" />
+      <Rule key="Web:InternationalizationCheck" />
+      <Rule key="kotlin:S105" />
+      <Rule key="java:S2141" />
+      <Rule key="java:S2384" />
+      <Rule key="java:S2143" />
+      <Rule key="ruby:S1821" />
+      <Rule key="java:S2148" />
+      <Rule key="java:S1699" />
+      <Rule key="java:S1698" />
+      <Rule key="java:S2701" />
+      <Rule key="java:S1213" />
+      <Rule key="java:S1696" />
+      <Rule key="java:S1695" />
+      <Rule key="java:S1694" />
+      <Rule key="java:S1451" />
+      <Rule key="python:S1721" />
+      <Rule key="python:S1722" />
+      <Rule key="python:S1720" />
+      <Rule key="php:S1578" />
+      <Rule key="ruby:S1451" />
+      <Rule key="java:S6073" />
+      <Rule key="Web:FieldsetWithoutLegendCheck" />
+      <Rule key="php:S1451" />
+      <Rule key="python:S1717" />
+      <Rule key="java:S3242" />
+      <Rule key="java:S3366" />
+      <Rule key="java:S2156" />
+      <Rule key="java:S1449" />
+      <Rule key="java:S1448" />
+      <Rule key="php:S5935" />
+      <Rule key="java:S2039" />
+      <Rule key="java:S1200" />
+      <Rule key="xml:S3423" />
+      <Rule key="java:S2959" />
+      <Rule key="Web:LinkToImageCheck" />
+      <Rule key="python:S6740" />
+      <Rule key="kotlin:S1151" />
+      <Rule key="php:S1105" />
+      <Rule key="php:S1106" />
+      <Rule key="python:ParsingError" />
+      <Rule key="python:NoSonar" />
+      <Rule key="java:S5793" />
+      <Rule key="java:S2162" />
+      <Rule key="Web:RequiredAttributeCheck" />
+      <Rule key="xml:S1120" />
+      <Rule key="java:S2164" />
+      <Rule key="xml:S3420" />
+      <Rule key="java:S3254" />
+      <Rule key="java:S2165" />
+      <Rule key="kotlin:S1821" />
+      <Rule key="java:S2047" />
+      <Rule key="java:S864" />
+      <Rule key="java:S1315" />
+      <Rule key="java:S1314" />
+      <Rule key="Web:DoubleQuotesCheck" />
+      <Rule key="Web:WmodeIsWindowCheck" />
+      <Rule key="java:S1312" />
+      <Rule key="kotlin:S5867" />
+      <Rule key="java:S1310" />
+      <Rule key="java:S3937" />
+      <Rule key="php:S4142" />
+      <Rule key="python:S2712" />
+      <Rule key="python:S3801" />
+      <Rule key="php:S1314" />
+      <Rule key="php:S5915" />
+      <Rule key="php:S1799" />
+      <Rule key="java:NoSonar" />
+      <Rule key="php:S1311" />
+      <Rule key="java:S6891" />
+      <Rule key="java:S1309" />
+      <Rule key="java:S2057" />
+      <Rule key="java:S6411" />
+      <Rule key="java:S2059" />
+      <Rule key="java:S2972" />
+      <Rule key="java:S6898" />
+      <Rule key="java:S2973" />
+      <Rule key="java:S2974" />
+      <Rule key="kotlin:S5612" />
+      <Rule key="Web:IllegalTagLibsCheck" />
+      <Rule key="python:S5439" />
+      <Rule key="java:S1541" />
+      <Rule key="Web:HeaderCheck" />
+      <Rule key="java:S881" />
+      <Rule key="php:S1200" />
+      <Rule key="java:S3030" />
+      <Rule key="java:S2063" />
+      <Rule key="java:S3032" />
+      <Rule key="java:S888" />
+      <Rule key="php:S6339" />
+      <Rule key="java:S4248" />
+      <Rule key="Web:LinksIdenticalTextsDifferentTargetsCheck" />
+    </rules>
+  </component>
+</application>

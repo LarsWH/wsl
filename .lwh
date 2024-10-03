@@ -1,3 +1,29 @@
 alias mylwh='source ~/.lwh'
+alias idea='intellij-idea-ultimate > /dev/null 2>&1 &'
+#alias chrome='chromium 2>&1 /dev/null &'
 
-intellij-idea-ultimate
+alias mydoc='code /mnt/d/Users/lars/OneDrive/Documents/'
+
+#export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64/
+export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64/
+export PATH=/mnt/d/Users/lars/source/repos/AbsBegCmake:~/bin:$PATH
+
+alias mystop='docker rm -f sletmig && docker-compose down'
+alias mybuild='mystop && docker-compose build'
+alias mystart='mybuild && docker-compose up -d'
+alias mycomp='mystart && docker exec sletmig /bin/bash -c '\''cd /mysrc && mvn clean package'\'''
+alias myrun='mycomp && docker exec sletmig /bin/bash -c '\''cd /mysrc && java $JAVA_OPTS -jar target/demo-0.0.1-SNAPSHOT.jar'\'''
+
+alias dstop='docker rm -f sletmig'
+alias dbuild='dstop && docker build -t sletmig_img .'
+alias dstart='dbuild && docker run -d  --name sletmig -v $PWD:/mysrc -v $HOME/.m2/repository:/root/.m2/repository -p 1097:1097 -p 1098:1098 -p 1099:1099 sletmig_img'
+alias dcomp='dstart && docker exec sletmig /bin/bash -c '\''cd /mysrc && mvn clean package'\'''
+alias drun='dcomp && docker exec sletmig /bin/bash -c '\''cd /mysrc && java $JAVA_OPTS -jar target/demo-0.0.1-SNAPSHOT.jar'\'''
+#alias drun=" dcomp  && docker exec sletmig /bin/bash -c 'cd /mysrc && java -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.local.only=false -Dcom.sun.management.jmxremote.rmi.port=1098 -Dcom.sun.management.jmxremote.port=1099 -Djava.rmi.server.hostname=0.0.0.0 -jar target/demo-0.0.1-SNAPSHOT.jar'
+
+alias visualvm='visualvm > /dev/null 2>&1 &'
+
+# https://learn.microsoft.com/en-us/windows/wsl/filesystems
+
+#export PROMPT_COMMAND='history -a; history -c; history -r'
+unset HISTCONTROL
