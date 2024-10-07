@@ -1,0 +1,5 @@
+[user]
+	email = lars@hangstrup.dk
+	name = Lars Hangstrup
+[credential]
+	helper = !gh auth git-credential
