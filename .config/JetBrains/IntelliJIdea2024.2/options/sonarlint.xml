@@ -254,7 +254,7 @@
         </entry>
         <entry key="java:S1120">
           <value>
-            <Rule key="java:S1120" />
+            <Rule active="false" key="java:S1120" />
           </value>
         </entry>
         <entry key="java:S113">
@@ -599,7 +599,7 @@
         </entry>
         <entry key="java:S2250">
           <value>
-            <Rule key="java:S2250" />
+            <Rule active="false" key="java:S2250" />
           </value>
         </entry>
         <entry key="java:S2260">
@@ -1864,7 +1864,7 @@
       <Rule key="python:S139" />
       <Rule key="java:S1244" />
       <Rule key="python:S1131" />
-      <Rule key="java:S1120" />
+      <Rule active="false" key="java:S1120" />
       <Rule key="python:OneStatementPerLine" />
       <Rule key="kotlin:S126" />
       <Rule key="php:S1820" />
@@ -1884,7 +1884,7 @@
       <Rule key="Web:IllegalElementCheck" />
       <Rule key="ruby:S1151" />
       <Rule key="php:S1117" />
-      <Rule key="java:S2250" />
+      <Rule active="false" key="java:S2250" />
       <Rule key="java:S2131" />
       <Rule key="java:S4551" />
       <Rule key="Web:IllegalTabCheck" />
