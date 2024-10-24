@@ -459,7 +459,7 @@
         </entry>
         <entry key="java:S1774">
           <value>
-            <Rule key="java:S1774" />
+            <Rule active="false" key="java:S1774" />
           </value>
         </entry>
         <entry key="java:S1820">
@@ -1666,7 +1666,7 @@
     </option>
     <rules>
       <Rule key="python:S6538" />
-      <Rule key="java:S1774" />
+      <Rule active="false" key="java:S1774" />
       <Rule key="java:S4926" />
       <Rule key="python:S2733" />
       <Rule key="Web:S1436" />
