@@ -394,7 +394,7 @@
         </entry>
         <entry key="java:S139">
           <value>
-            <Rule key="java:S139" />
+            <Rule active="false" key="java:S139" />
           </value>
         </entry>
         <entry key="java:S1448">
@@ -1733,10 +1733,10 @@
       <Rule key="java:S3750" />
       <Rule key="java:S2301" />
       <Rule key="docker:S2260" />
-      <Rule key="java:S4604" />
-      <Rule key="java:S6904" />
       <Rule key="kubernetes:S2260" />
+      <Rule key="java:S6904" />
       <Rule key="java:S1610" />
+      <Rule key="java:S4604" />
       <Rule key="python:S104" />
       <Rule key="java:S4605" />
       <Rule key="java:S2308" />
@@ -1744,11 +1744,11 @@
       <Rule key="java:S1176" />
       <Rule key="Web:LongJavaScriptCheck" />
       <Rule key="Web:DynamicJspIncludeCheck" />
-      <Rule key="php:S2260" />
       <Rule key="Web:ServerSideImageMapsCheck" />
+      <Rule key="php:S2260" />
       <Rule key="Web:LinkToNothingCheck" />
-      <Rule key="php:S2701" />
       <Rule key="kotlin:ParsingError" />
+      <Rule key="php:S2701" />
       <Rule key="ruby:S138" />
       <Rule key="java:S4174" />
       <Rule active="false" key="java:S118" />
@@ -1763,8 +1763,8 @@
       <Rule key="java:S1160" />
       <Rule key="python:S1578" />
       <Rule key="php:S2830" />
-      <Rule key="php:S2038" />
       <Rule key="python:LongIntegerWithLowercaseSuffixUsage" />
+      <Rule key="php:S2038" />
       <Rule key="php:S2036" />
       <Rule key="php:S2278" />
       <Rule key="php:S2037" />
@@ -1792,12 +1792,12 @@
       <Rule key="ruby:S122" />
       <Rule key="php:S1151" />
       <Rule key="php:NoSonar" />
-      <Rule key="Web:InputWithoutLabelCheck" />
       <Rule key="php:S2007" />
+      <Rule key="Web:InputWithoutLabelCheck" />
       <Rule key="php:S3338" />
       <Rule key="java:S134" />
-      <Rule key="php:S2005" />
       <Rule key="php:S3337" />
+      <Rule key="php:S2005" />
       <Rule key="php:S3336" />
       <Rule key="php:S3335" />
       <Rule key="php:S3334" />
@@ -1805,22 +1805,22 @@
       <Rule key="php:S2001" />
       <Rule key="Web:ImgWithoutWidthOrHeightCheck" />
       <Rule key="php:S2002" />
-      <Rule key="java:S6374" />
       <Rule key="php:S3332" />
+      <Rule key="java:S6374" />
       <Rule key="java:S2693" />
-      <Rule key="java:S139" />
+      <Rule active="false" key="java:S139" />
       <Rule key="java:S2694" />
       <Rule key="java:S2211" />
-      <Rule key="python:S134" />
       <Rule key="java:S2333" />
+      <Rule key="python:S134" />
       <Rule key="java:S1943" />
-      <Rule key="java:S1821" />
       <Rule active="false" key="java:S2698" />
       <Rule key="java:S1942" />
       <Rule key="java:S138" />
+      <Rule key="java:S1821" />
       <Rule key="java:S1820" />
-      <Rule key="java:S1941" />
       <Rule key="python:LineLength" />
+      <Rule key="java:S1941" />
       <Rule key="java:S1147" />
       <Rule key="java:S3306" />
       <Rule key="java:S1142" />
@@ -1830,8 +1830,8 @@
       <Rule key="Web:MultiplePageDirectivesCheck" />
       <Rule key="python:S2325" />
       <Rule key="python:S5953" />
-      <Rule key="Web:IllegalNamespaceCheck" />
       <Rule key="java:S121" />
+      <Rule key="Web:IllegalNamespaceCheck" />
       <Rule key="ruby:S1067" />
       <Rule key="java:S122" />
       <Rule key="cloudformation:S2260" />
@@ -1845,8 +1845,8 @@
       <Rule key="java:S5977" />
       <Rule key="xml:S3282" />
       <Rule key="java:S126" />
-      <Rule key="java:S5979" />
       <Rule key="java:S1258" />
+      <Rule key="java:S5979" />
       <Rule key="java:S3437" />
       <Rule key="php:S103" />
       <Rule key="java:S1132" />
@@ -1861,13 +1861,13 @@
       <Rule key="java:S5867" />
       <Rule key="python:S138" />
       <Rule key="python:S5856" />
-      <Rule key="python:S139" />
       <Rule key="java:S1244" />
+      <Rule key="python:S139" />
       <Rule key="python:S1131" />
       <Rule active="false" key="java:S1120" />
       <Rule key="python:OneStatementPerLine" />
-      <Rule key="kotlin:S126" />
       <Rule key="php:S1820" />
+      <Rule key="kotlin:S126" />
       <Rule key="php:S1821" />
       <Rule key="java:S5194" />
       <Rule key="php:S2918" />
@@ -1895,20 +1895,20 @@
       <Rule key="java:S1107" />
       <Rule active="false" key="java:S1106" />
       <Rule key="java:S1105" />
-      <Rule key="php:S134" />
       <Rule key="kotlin:S1451" />
+      <Rule key="php:S134" />
       <Rule key="php:S139" />
       <Rule key="Web:S1829" />
       <Rule key="kotlin:S104" />
-      <Rule key="kotlin:S103" />
       <Rule key="xml:S105" />
+      <Rule key="kotlin:S103" />
       <Rule key="xml:S103" />
       <Rule key="python:S1707" />
       <Rule key="java:S2260" />
-      <Rule key="php:S1121" />
       <Rule key="Web:InternationalizationCheck" />
-      <Rule key="java:S2141" />
+      <Rule key="php:S1121" />
       <Rule key="kotlin:S105" />
+      <Rule key="java:S2141" />
       <Rule key="java:S2384" />
       <Rule key="java:S2143" />
       <Rule key="ruby:S1821" />
@@ -1931,8 +1931,8 @@
       <Rule key="php:S1451" />
       <Rule key="python:S1717" />
       <Rule key="java:S3242" />
-      <Rule key="java:S2156" />
       <Rule key="java:S3366" />
+      <Rule key="java:S2156" />
       <Rule key="java:S1449" />
       <Rule key="java:S1448" />
       <Rule active="false" key="java:S2039" />
@@ -1947,28 +1947,28 @@
       <Rule key="php:S1106" />
       <Rule key="python:ParsingError" />
       <Rule key="python:NoSonar" />
-      <Rule key="java:S5793" />
       <Rule key="java:S2162" />
+      <Rule key="java:S5793" />
       <Rule key="Web:RequiredAttributeCheck" />
-      <Rule key="xml:S3420" />
-      <Rule key="java:S2164" />
       <Rule key="xml:S1120" />
-      <Rule key="java:S3254" />
+      <Rule key="java:S2164" />
+      <Rule key="xml:S3420" />
       <Rule key="java:S2165" />
+      <Rule key="java:S3254" />
       <Rule key="kotlin:S1821" />
       <Rule key="java:S2047" />
       <Rule key="java:S1315" />
       <Rule key="java:S864" />
       <Rule key="java:S1314" />
-      <Rule key="Web:DoubleQuotesCheck" />
       <Rule key="Web:WmodeIsWindowCheck" />
+      <Rule key="Web:DoubleQuotesCheck" />
       <Rule key="java:S1312" />
       <Rule key="kotlin:S5867" />
       <Rule key="java:S1310" />
       <Rule key="java:S3937" />
       <Rule key="php:S4142" />
-      <Rule key="python:S2712" />
       <Rule key="python:S3801" />
+      <Rule key="python:S2712" />
       <Rule key="php:S1314" />
       <Rule key="php:S1799" />
       <Rule key="php:S5915" />
@@ -1978,8 +1978,8 @@
       <Rule key="java:S1309" />
       <Rule key="java:S2057" />
       <Rule key="java:S6411" />
-      <Rule key="java:S2972" />
       <Rule key="java:S2059" />
+      <Rule key="java:S2972" />
       <Rule key="java:S6898" />
       <Rule key="java:S2973" />
       <Rule key="java:S2974" />
